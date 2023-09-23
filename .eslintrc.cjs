@@ -9,6 +9,14 @@ module.exports = {
     "@vue/eslint-config-typescript",
     "@vue/eslint-config-prettier",
   ],
+  rules: {
+    "vue/multi-word-component-names": [
+      "error",
+      {
+        ignores: ["index"],
+      },
+    ],
+  },
   parserOptions: {
     ecmaVersion: "latest",
   },
