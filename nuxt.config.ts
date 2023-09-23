@@ -11,4 +11,17 @@ export default defineNuxtConfig({
       pathPrefix: false,
     },
   ],
+  modules: [
+    "@nuxtjs/tailwindcss",
+    "@nuxtjs/google-fonts",
+    "@nuxtjs/color-mode",
+  ],
+  colorMode: {
+    classSuffix: "",
+  },
+  googleFonts: {
+    families: {
+      Poppins: true,
+    },
+  },
 });
