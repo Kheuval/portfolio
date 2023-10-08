@@ -1,10 +1,11 @@
 <template>
   <AppHeader />
   <main class="pt-24">
-    <section id="home">HOME</section>
+    <AppHome />
     <section id="about">ABOUT</section>
     <section id="skills">SKILLS</section>
     <section id="projects">PROJECTS</section>
+    <section id="contact">CONTACT</section>
   </main>
 </template>
 
