@@ -7,6 +7,7 @@ module.exports = {
     "plugin:vue/vue3-essential",
     "eslint:recommended",
     "@vue/eslint-config-typescript",
+    "plugin:tailwindcss/recommended",
     "@vue/eslint-config-prettier",
   ],
   rules: {
@@ -16,6 +17,11 @@ module.exports = {
         ignores: ["index"],
       },
     ],
+  },
+  settings: {
+    tailwindcss: {
+      whitelist: ["header-link"],
+    },
   },
   parserOptions: {
     ecmaVersion: "latest",

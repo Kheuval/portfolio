@@ -15,9 +15,15 @@ export default defineNuxtConfig({
     "@nuxtjs/tailwindcss",
     "@nuxtjs/google-fonts",
     "@nuxtjs/color-mode",
+    "@vueuse/nuxt",
+    "@nuxtjs/i18n",
+    "nuxt-icon",
   ],
   colorMode: {
     classSuffix: "",
+  },
+  i18n: {
+    vueI18n: "./i18n.config.ts",
   },
   googleFonts: {
     families: {
