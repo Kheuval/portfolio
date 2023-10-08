@@ -1,7 +1,7 @@
 <template>
   <Transition name="menuToggle">
     <nav
-      class="absolute right-0 top-[100%] ml-auto flex flex-col gap-4 rounded-l-md border-y-2 border-l-2 border-primary p-4 dark:border-white md:relative md:flex-row md:border-none md:p-0"
+      class="absolute right-0 top-[100%] ml-auto flex flex-col gap-4 rounded-l-md border-y-2 border-l-2 border-primary bg-white p-4 dark:border-white dark:bg-primary md:relative md:flex-row md:border-none md:p-0"
       v-show="showMenu"
     >
       <ul class="flex flex-col gap-6 md:flex-row">
@@ -9,28 +9,35 @@
           class="header-link w-fit border-b-[3px] border-transparent transition-all hover:border-secondary"
         >
           <a id="home-link" href="#home" @click="scrollSmooth">
-            {{ $t("home") }}
+            {{ $t("menu.home") }}
           </a>
         </li>
         <li
           class="header-link w-fit border-b-[3px] border-transparent transition-all hover:border-secondary"
         >
           <a id="about-link" href="#about" @click="scrollSmooth">
-            {{ $t("about") }}
+            {{ $t("menu.about") }}
           </a>
         </li>
         <li
           class="header-link w-fit border-b-[3px] border-transparent transition-all hover:border-secondary"
         >
           <a id="skills-link" href="#skills" @click="scrollSmooth">
-            {{ $t("skills") }}
+            {{ $t("menu.skills") }}
           </a>
         </li>
         <li
           class="header-link w-fit border-b-[3px] border-transparent transition-all hover:border-secondary"
         >
           <a id="projects-link" href="#projects" @click="scrollSmooth">
-            {{ $t("projects") }}
+            {{ $t("menu.projects") }}
+          </a>
+        </li>
+        <li
+          class="header-link w-fit border-b-[3px] border-transparent transition-all hover:border-secondary"
+        >
+          <a id="contact-link" href="#contact" @click="scrollSmooth">
+            {{ $t("menu.contact") }}
           </a>
         </li>
       </ul>
