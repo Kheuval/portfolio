@@ -2,7 +2,7 @@
   <header
     class="fixed left-0 top-0 z-10 flex w-full items-center gap-4 bg-white p-4 font-medium dark:bg-primary md:px-[15%]"
   >
-    <img src="img/logo.png" alt="Logo" />
+    <img src="/img/logo.png" alt="Logo" />
     <button
       class="ml-auto active:scale-95 md:!hidden"
       @click="showMenu = !showMenu"
