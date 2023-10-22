@@ -7,7 +7,7 @@
       class="mx-auto md:order-3"
       width="220"
       height="220"
-      src="img/profile-picture.png"
+      src="/img/profile-picture.png"
       alt="Profile picture"
     />
     <div class="mx-auto flex items-center gap-4 md:order-4 md:flex md:flex-col">

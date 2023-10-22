@@ -43,7 +43,7 @@
       </ul>
       <div class="flex items-center gap-4">
         <button @click="switchLocale">
-          <img class="rounded-md" :src="`img/${locale}.png`" alt="Locale" />
+          <img class="rounded-md" :src="`/img/${locale}.png`" alt="Locale" />
         </button>
         <ClientOnly>
           <button @click="switchColorMode">
